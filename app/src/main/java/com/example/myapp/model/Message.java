@@ -1,13 +1,4 @@
-package com.example.myapp.activity;
-
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
-import android.os.AsyncTask;
-import android.util.Log;
-
-import java.io.InputStream;
-import java.net.HttpURLConnection;
-import java.net.URL;
+package com.example.myapp.model;
 
 public class Message {
 

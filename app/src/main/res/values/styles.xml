@@ -1,20 +1,16 @@
 <resources>
 
     <!-- the theme applied to the application or activity -->
-    <style name="AppTheme"
-        parent="@style/Theme.AppCompat.Light">
-        <item name="android:actionBarStyle">@style/MyActionBar</item>
-
-        <!-- Support library compatibility -->
-        <item name="actionBarStyle">@style/MyActionBar</item>
-    </style>
+    <style name="AppTheme" parent="@style/MyTheme">
+     </style>
 
     <!-- ActionBar styles -->
-    <style name="MyActionBar"
-        parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
-        <item name="android:background">@color/common_action_bar_splitter</item>
-
-        <!-- Support library compatibility -->
+    <style name="MyTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+            <item name="windowNoTitle">true</item>
+            <item name="windowActionBar">false</item>
+            <item name="colorPrimary">@color/colorPrimary</item>
+            <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+            <item name="colorAccent">@color/colorAccent</item>
     </style>
 
 </resources>

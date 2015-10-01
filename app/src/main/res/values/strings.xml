@@ -6,4 +6,12 @@
     <string name="action_settings">Settings</string>
     <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/2247696110</string>
     <string name="facebook_app_id">ga0RGNYHvNM5d0SLGQfpQWAPGJ8=</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string-array name="nav_drawer_labels">
+        <item>Home</item>
+        <item>Rate</item>
+        <item>Settings</item>
+    </string-array>
 </resources>

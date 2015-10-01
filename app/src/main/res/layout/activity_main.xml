@@ -1,31 +1,58 @@
-<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:id="@+id/swipeRefLayoutLayout">
+    android:layout_height="match_parent">
 
-   <ListView android:id="@+id/listViewPost"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-       android:fastScrollEnabled="true"
-       android:layout_marginBottom="42dp">
-    </ListView>
+        android:orientation="vertical">
 
-    <View
-        android:background="@color/common_signin_btn_default_background"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_above="@+id/adView"
-        android:layout_height="2dp"/>
+        android:layout_height="60dp"
+        android:orientation="vertical">
 
-    <com.google.android.gms.ads.AdView
-        android:id="@+id/adView"
-        android:layout_width="wrap_content"
-        android:layout_height="40dp"
-        android:layout_centerHorizontal="true"
-        android:layout_alignParentBottom="true"
-        ads:adSize="BANNER"
-        ads:adUnitId="@string/banner_ad_unit_id">
-    </com.google.android.gms.ads.AdView>
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/view_toolbar" />
+    </LinearLayout>
 
-</android.support.v4.widget.SwipeRefreshLayout>
+        <FrameLayout
+            android:id="@+id/container_body"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <View
+            android:background="@color/common_signin_btn_default_background"
+            android:layout_width="match_parent"
+            android:layout_above="@+id/adView"
+            android:layout_height="2dp"/>
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/banner_ad_unit_id">
+        </com.google.android.gms.ads.AdView>
+
+    </LinearLayout>
+
+
+
+    <fragment
+        android:id="@+id/fragment_navigation_drawer"
+        android:name="com.example.myapp.activity.FragmentDrawer"
+        android:layout_width="@dimen/nav_drawer_width"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        layout="@layout/fragment_navigation_drawer"
+        tools:layout="@layout/fragment_navigation_drawer" />
+
+</android.support.v4.widget.DrawerLayout>

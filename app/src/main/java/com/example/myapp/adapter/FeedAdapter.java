@@ -1,4 +1,4 @@
-package com.example.myapp.activity;
+package com.example.myapp.adapter;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -13,6 +13,7 @@ import android.widget.TextView;
 import com.android.volley.toolbox.ImageLoader;
 import com.android.volley.toolbox.NetworkImageView;
 import com.example.myapp.R;
+import com.example.myapp.model.Message;
 import com.example.volley.helper.ApplicationLoader;
 
 public class FeedAdapter extends ArrayAdapter<Message>{

@@ -1,4 +1,4 @@
-package com.example.myapp.activity;
+package com.example.myapp.utils;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -11,6 +11,8 @@ import org.xmlpull.v1.XmlPullParser;
 
 import android.util.Log;
 import android.util.Xml;
+
+import com.example.myapp.model.Message;
 
 public class RssFeedParser {
 
