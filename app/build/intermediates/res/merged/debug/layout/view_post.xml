@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:orientation="vertical" >
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/imgLink"/>
+
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:paddingLeft="75dp"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:textColor="#ff80cbc4"
+        android:id="@+id/txtTitle"/>
+    
+      <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="8sp"
+         android:paddingLeft="75dp"
+         android:text="Pub Date"
+          android:layout_below="@+id/txtTitle"
+        android:id="@+id/txtPubDate"/>
+      
+       <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="75dp"
+         android:textColor="#ff37474f"
+         android:text="Description"
+           android:layout_below="@+id/txtPubDate"
+        android:id="@+id/txtDescription"/>
+
+</RelativeLayout>
+<!-- From: file:/Users/mobility/StudioProjects/MyApp/app/src/main/res/layout/view_post.xml -->

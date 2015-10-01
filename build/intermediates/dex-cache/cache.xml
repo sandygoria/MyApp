@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/mobility/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.2.0/6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd/bolts-android-1.2.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd">
+        <dex dex="/Users/mobility/StudioProjects/MyApp/app/build/intermediates/pre-dexed/debug/bolts-android-1.2.0-8c30571b52f613369655fe20a06d008fd35402ab.jar" />
+    </item>
+    <item
+        jar="/Users/mobility/StudioProjects/MyApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="0124ce31248c0e8acfa2b28283c6d1a4d76e73d2">
+        <dex dex="/Users/mobility/StudioProjects/MyApp/app/build/intermediates/pre-dexed/debug/classes-5c41ea8426516415850480274a5e8311bcf1c54b.jar" />
+    </item>
+    <item
+        jar="/Users/mobility/StudioProjects/MyApp/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.6.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1c1afa0ab2a8197a5da1b36c4167a9e479cb74d9">
+        <dex dex="/Users/mobility/StudioProjects/MyApp/app/build/intermediates/pre-dexed/debug/classes-92c675fed0a3fcb3d52f44208fc518e79e124ec3.jar" />
+    </item>
+    <item
+        jar="/Users/mobility/.gradle/caches/modules-2/files-2.1/com.mcxiaoke.volley/library/1.0.17/f417d7f776d1ee5858fc04d9362aa45e9bedd26b/library-1.0.17.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="f417d7f776d1ee5858fc04d9362aa45e9bedd26b">
+        <dex dex="/Users/mobility/StudioProjects/MyApp/app/build/intermediates/pre-dexed/debug/library-1.0.17-9e8fa1928f5aeb1183a5b113558b0d3511fe4645.jar" />
+    </item>
+    <item
+        jar="/Users/mobility/StudioProjects/MyApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e23ea11124bb700eeddd4ab7aa848c615f493850">
+        <dex dex="/Users/mobility/StudioProjects/MyApp/app/build/intermediates/pre-dexed/debug/classes-cd643c60599a5f7f6649c090ada9aff030070715.jar" />
+    </item>
+    <item
+        jar="/Users/mobility/StudioProjects/MyApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1ff30fa49c07a08c3035d7218a3efebf5680d522">
+        <dex dex="/Users/mobility/StudioProjects/MyApp/app/build/intermediates/pre-dexed/debug/classes-4eb6a264cc72bf9c6a127fa889d6934e910e9405.jar" />
+    </item>
+    <item
+        jar="/Users/mobility/StudioProjects/MyApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/Users/mobility/StudioProjects/MyApp/app/build/intermediates/pre-dexed/debug/classes-79ae000875eb72255aadfda822eb02b7d791bc6d.jar" />
+    </item>
+    <item
+        jar="/Users/mobility/StudioProjects/MyApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/Users/mobility/StudioProjects/MyApp/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1-b8c80d71763db416da3303e346c85828b7f08fcc.jar" />
+    </item>
+    <item
+        jar="/Users/mobility/StudioProjects/MyApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/Users/mobility/StudioProjects/MyApp/app/build/intermediates/pre-dexed/debug/classes-71f9d8699be61d2c1c7438af1b7a430f540121dc.jar" />
+    </item>
+    <item
+        jar="/Users/mobility/Documents/sap/android-sdk-macosx/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="/Users/mobility/StudioProjects/MyApp/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1-0364b71c5a0fe33ed9311473dc4bb6ba8a4783e5.jar" />
+    </item>
+    <item
+        jar="/Users/mobility/StudioProjects/MyApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c0c912d58c9468b1f9d9769c8975afdf2c85d681">
+        <dex dex="/Users/mobility/StudioProjects/MyApp/app/build/intermediates/pre-dexed/debug/classes-41a6d406923457c6f30a95b715fca1ec8400984c.jar" />
+    </item>
+
+</items>
